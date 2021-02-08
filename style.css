@@ -1,0 +1,67 @@
+ html {
+     font-family: monospace;
+ }
+ 
+ .upperpage {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+ h1 {
+    color: gray;
+    width: 50%;
+    text-align: left;
+ }
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    height: auto;
+}
+
+ .description {
+     color: black;
+     width: 50%;
+     text-align: right;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
+
+ a, p {
+     font-size: 14px;
+     font-style: italic;
+     margin-top: 0px;
+     margin-bottom: 0px;
+ }
+
+ .box-elements {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     margin-top: 10px;
+     font-weight: 200;
+ }
+
+ .education:hover {
+     background-color: orangered;
+     cursor: pointer;
+     transform: scale(1.5);
+     padding: 5px;
+ }
+
+ .experience:hover {
+    background-color: lightgreen;
+    cursor: pointer;
+    transform: scale(1.5);
+    padding: 5px;
+}
+
+.skills:hover {
+    background-color: lightblue;
+    cursor: pointer;
+    transform: scale(1.5);
+    padding: 5px;
+}
+  
