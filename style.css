@@ -20,7 +20,7 @@ img {
     height: auto;
 }
 
- .description {
+ .contact {
      color: black;
      width: 50%;
      text-align: right;
@@ -29,39 +29,17 @@ img {
      justify-content: space-evenly;
  }
 
- a, p {
-     font-size: 14px;
-     font-style: italic;
-     margin-top: 0px;
-     margin-bottom: 0px;
- }
+ #summary {
+     text-align: center;
+     font-size: 15px;
+     padding-top: 30px;
+    }
 
  .box-elements {
      display: flex;
-     flex-direction: row;
+     flex-direction: column;
      justify-content: space-evenly;
      margin-top: 10px;
      font-weight: 200;
+     text-align: center;
  }
-
- .education:hover {
-     background-color: orangered;
-     cursor: pointer;
-     transform: scale(1.5);
-     padding: 5px;
- }
-
- .experience:hover {
-    background-color: lightgreen;
-    cursor: pointer;
-    transform: scale(1.5);
-    padding: 5px;
-}
-
-.skills:hover {
-    background-color: lightblue;
-    cursor: pointer;
-    transform: scale(1.5);
-    padding: 5px;
-}
-  
