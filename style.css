@@ -34,12 +34,3 @@ img {
      font-size: 15px;
      padding-top: 30px;
     }
-
- .box-elements {
-     display: flex;
-     flex-direction: column;
-     justify-content: space-evenly;
-     margin-top: 10px;
-     font-weight: 200;
-     text-align: center;
- }
