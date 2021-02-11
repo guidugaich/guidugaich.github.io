@@ -1,5 +1,6 @@
  html {
      font-family: monospace;
+     background-image: linear-gradient(315deg, #9fa4c4 0%, #b3cdd1 74%);
  }
  
  .upperpage {
@@ -9,7 +10,7 @@
     align-items: center;
  }
  h1 {
-    color: gray;
+    color: black;
     width: 50%;
     text-align: left;
  }
@@ -31,10 +32,15 @@ img {
 
  #summary {
      text-align: center;
+     text-justify: auto;
      font-size: 15px;
      padding-top: 30px;
+     padding-bottom: 30px;
+     width: 300px;
+     margin: auto;
     }
 
 .skills {
     text-align: center;
+    font-size: small;
 }
