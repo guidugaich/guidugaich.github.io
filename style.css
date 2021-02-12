@@ -1,29 +1,28 @@
  html {
-     font-family: monospace;
-     background-image: linear-gradient(0deg,#b8c6d8 0%, #f5f7fa 50%);
+     font-family: Roboto;
+     font-weight: lighter;
+     background-image: linear-gradient(0deg,#b8c6d8 0%, #f5f7fa 70%);
  }
  
- .upperpage {
-    margin: auto;
+ .upperpage { 
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: space-evenly;
  }
  h1 {
     color: black;
-    width: 50%;
-    text-align: left;
  }
 
-img {
-    border-radius: 50%;
+#profile-pic {
+    border-radius:50%;
     width: 150px;
     height: auto;
+    text-align: left;
 }
 
  .contact {
      color: black;
-     width: 50%;
      text-align: right;
      display: flex;
      flex-direction: column;
