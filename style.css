@@ -5,11 +5,19 @@
  }
  
  .upperpage { 
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid black;
+    background-color: white;
+
  }
+
  h1 {
     color: black;
  }
@@ -34,6 +42,10 @@
      height: auto;
      left: 0px;
      right: 0px;
+ }
+
+ .main {
+     margin-top: 150px;
  }
 
  #summary {
