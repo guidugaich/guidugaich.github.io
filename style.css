@@ -1,36 +1,34 @@
  html {
      font-family: Roboto;
      font-weight: lighter;
-     background-image: linear-gradient(0deg,#b8c6d8 0%, #f5f7fa 70%);
  }
  
  .upperpage { 
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: fixed;
     top: 0;
-    border-bottom: 1px solid black;
-    background-color: white;
-
- }
-
- h1 {
-    color: black;
+    right: 10px;
+    left: 10px;
+    background-color: #1b5c40;
+    color: white;
+    border-radius: 5px;
+    min-width: 800px;
  }
 
 #profile-pic {
     border-radius:50%;
-    width: 150px;
+    width: 130px;
     height: auto;
-    text-align: left;
+    /* text-align: left; */
+    border: 3px solid white;
 }
 
  .contact {
-     color: black;
+     color: white;
      text-align: right;
      display: flex;
      flex-direction: column;
@@ -45,20 +43,28 @@
  }
 
  .main {
-     margin-top: 150px;
+     margin-top: 170px;
+     text-align: center;
  }
 
- #summary {
-     text-align: justify;
-     text-justify: auto;
-     font-size: 15px;
-     padding-top: 30px;
-     padding-bottom: 30px;
-     width: 350px;
-     margin: auto;
-    }
+ .landing-section {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-evenly;
+     margin-left: 20%;
+     margin-right: 20%;
+ }
 
-.skills {
-    text-align: center;
-    font-size: 2em;
-}
+ #icon-web-dev {
+     width: 350px;
+ }
+
+ #intro {
+     font-size: 15px;
+     width: 350px;
+     line-height: 2;
+     font-size: 18px;
+     font-weight: 1000;
+     text-align:justify;
+    }
