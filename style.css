@@ -101,6 +101,11 @@
     color: black;
 }
 
+#under-construction {
+    height: 120px;
+    margin: 10px;
+}
+
 footer {
     background-color: var(--quaternary);
     padding: 18px;
