@@ -1,12 +1,13 @@
  :root {
-    --primary: #cab577;
-    --secondary: #7e4a35;
-    --terciary: #dbceb0;
-    --quaternary: #838060;
+    --primary: #f0efef;
+    --secondary: #ddeedd;
+    --terciary: #c2d4dd;
+    --quaternary: #b0aac0;
  }
  
  html {
      font-family: 'Ubuntu', 'Roboto', monospace;
+     background-color: var(--primary);
  }
  
  .upperpage { 
@@ -19,8 +20,7 @@
     top: 0;
     right: 10px;
     left: 10px;
-    background-color: var(--secondary);
-    color: white;
+    background-color: var(--quaternary);
     border-radius: 5px;
     min-width: 800px;
  }
@@ -30,11 +30,10 @@
     width: 130px;
     height: auto;
     /* text-align: left; */
-    border: 3px solid var(--terciary);
+    border: 3px solid black;
 }
 
  .contact {
-     color: var(--terciary);
      text-align: right;
      display: flex;
      flex-direction: column;
@@ -103,8 +102,7 @@
 }
 
 footer {
-    color: white;
-    background-color: var(--secondary);
-    padding: 20px;
-    font-size: 12px;
+    background-color: var(--quaternary);
+    padding: 18px;
+    font-size: 14px;
 }
