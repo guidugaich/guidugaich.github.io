@@ -64,6 +64,10 @@
      padding-left: 20%;
  }
 
+ #intro {
+     text-align: left;
+ }
+
  #icon-web-dev {
      width: 350px;
  }
@@ -72,9 +76,9 @@
      font-size: 15px;
      width: 350px;
      line-height: 2;
-     font-size: 18px;
-     font-weight: 1000;
-     text-align:justify;
+     font-size: 20px;
+     /* font-weight: 1000; */
+     /* text-align:justify; */
     }
 
 .skill-div {
@@ -101,4 +105,6 @@
 footer {
     color: white;
     background-color: var(--secondary);
+    padding: 20px;
+    font-size: 12px;
 }
