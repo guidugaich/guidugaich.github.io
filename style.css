@@ -1,36 +1,39 @@
+ :root {
+    --primary: #f0efef;
+    --secondary: #ddeedd;
+    --terciary: #c2d4dd;
+    --quaternary: #b0aac0;
+ }
+ 
  html {
-     font-family: Roboto;
-     font-weight: lighter;
-     background-image: linear-gradient(0deg,#b8c6d8 0%, #f5f7fa 70%);
+     font-family: 'Ubuntu', 'Roboto', monospace;
+     background-color: var(--primary);
  }
  
  .upperpage { 
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    overflow: hidden;
+    /* overflow: hidden; */
     position: fixed;
     top: 0;
-    border-bottom: 1px solid black;
-    background-color: white;
-
- }
-
- h1 {
-    color: black;
+    right: 10px;
+    left: 10px;
+    background-color: var(--quaternary);
+    border-radius: 5px;
+    min-width: 800px;
  }
 
 #profile-pic {
     border-radius:50%;
-    width: 150px;
+    width: 130px;
     height: auto;
-    text-align: left;
+    /* text-align: left; */
+    border: 3px solid black;
 }
 
  .contact {
-     color: black;
      text-align: right;
      display: flex;
      flex-direction: column;
@@ -45,20 +48,66 @@
  }
 
  .main {
-     margin-top: 150px;
+     margin-top: 170px; 
+     margin-left: 10px;
+     margin-right: 10px;
+     text-align: center;
  }
 
- #summary {
-     text-align: justify;
-     text-justify: auto;
-     font-size: 15px;
-     padding-top: 30px;
-     padding-bottom: 30px;
+ .landing-section {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+     padding-right: 20%;
+     padding-left: 20%;
+ }
+
+ #intro {
+     text-align: left;
+ }
+
+ #icon-web-dev {
      width: 350px;
-     margin: auto;
+ }
+
+ #intro {
+     font-size: 15px;
+     width: 350px;
+     line-height: 2;
+     font-size: 20px;
+     /* font-weight: 1000; */
+     /* text-align:justify; */
     }
 
-.skills {
-    text-align: center;
-    font-size: 2em;
+.skill-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.skill-div div {
+    margin: 10px;
+}
+
+.icon{
+    width: 70px;
+}
+
+.skill-div span {
+    font-size: 12px;
+    font-weight: 900;
+    color: black;
+}
+
+#under-construction {
+    height: 120px;
+    margin: 10px;
+}
+
+footer {
+    background-color: var(--quaternary);
+    padding: 18px;
+    font-size: 14px;
 }
