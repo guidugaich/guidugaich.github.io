@@ -1,3 +1,10 @@
+ :root {
+    --primary: #cab577;
+    --secondary: #7e4a35;
+    --terciary: #dbceb0;
+    --quaternary: #838060;
+ }
+ 
  html {
      font-family: Roboto;
      font-weight: lighter;
@@ -13,7 +20,7 @@
     top: 0;
     right: 10px;
     left: 10px;
-    background-color: #1b5c40;
+    background-color: var(--secondary);
     color: white;
     border-radius: 5px;
     min-width: 800px;
@@ -24,11 +31,11 @@
     width: 130px;
     height: auto;
     /* text-align: left; */
-    border: 3px solid white;
+    border: 3px solid var(--terciary);
 }
 
  .contact {
-     color: white;
+     color: var(--terciary);
      text-align: right;
      display: flex;
      flex-direction: column;
@@ -85,4 +92,9 @@
 .technologies-and-tools span {
     font-size: 12px;
     color: gray;
+}
+
+footer {
+    color: white;
+    background-color: var(--secondary);
 }
