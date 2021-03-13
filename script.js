@@ -12,7 +12,7 @@ function addProject(projectName) {
 
   pageLink.innerText = projectName;
   pageLink.href = `https://guidugaich.github.io/${projectName}`;
-  pageLink.target = '_blank'
+  pageLink.target = '_blank';
 
   projectDiv.appendChild(pageLink);
   projectDiv.appendChild(projectImage);

@@ -101,6 +101,29 @@
     color: black;
 }
 
+.project-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.project-div a {
+    padding: 5px;
+    color: black;
+    font-size: 22px;
+    font-weight: 1000;
+}
+
+.project-image {
+    border: 1px solid black;
+    border-radius: 5%;
+    width: 220px;
+}
+
+
 #under-construction {
     height: 120px;
     margin: 10px;
