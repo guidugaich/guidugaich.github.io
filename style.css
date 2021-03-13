@@ -101,6 +101,13 @@
     color: black;
 }
 
+.projects {
+    /* Consider change to css grid later*/ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .project-div {
     display: flex;
     flex-direction: column;

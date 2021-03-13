@@ -21,3 +21,4 @@ function addProject(projectName) {
 }
 
 addProject('pixel-art');
+addProject('todo-list');
