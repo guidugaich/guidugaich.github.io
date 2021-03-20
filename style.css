@@ -7,51 +7,62 @@
  
  html {
      font-family: 'Ubuntu', 'Roboto', monospace;
-     background-color: var(--primary);
- }
- 
- .upperpage { 
+    }
+    
+.upperpage { 
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     align-items: center;
-    justify-content: space-evenly;
-    /* overflow: hidden; */
+    overflow: hidden ;
     position: fixed;
     top: 0;
-    right: 10px;
-    left: 10px;
-    background-color: var(--quaternary);
-    border-radius: 5px;
-    min-width: 800px;
+    background-color: white;
+    width: 90%;
+    padding: 0px 5%;
+}
+
+ .main {
+     text-align: center;
+     margin-top: 120px;
  }
 
-#profile-pic {
-    border-radius:50%;
-    width: 130px;
+.brand h1 {
+    margin-bottom: 3%;
+    font-size: 25px;
+    color: rgb(80, 80, 80);
+ }
+
+ .brand h2 {
+     font-size: 21px;
+     font-weight: lighter;
+     margin-top: 0;
+     color: rgb(70, 70, 70);
+ }
+
+ #profile-pic {
+    border-radius:100%;
+    width: 250px;
     height: auto;
     /* text-align: left; */
-    border: 3px solid black;
+    /* border: 3px solid black; */
+    margin-right: 100px;
 }
 
  .contact {
-     text-align: right;
      display: flex;
-     flex-direction: column;
-     justify-content: space-evenly;
+     /* justify-content: right; */
+     align-items: center;
+     color: rgb(69, 69, 69);
  }
 
  .icons img{
-     width: 40px;
-     height: auto;
-     left: 0px;
-     right: 0px;
- }
-
- .main {
-     margin-top: 170px; 
-     margin-left: 10px;
-     margin-right: 10px;
-     text-align: center;
+     width: 30px;
+     margin-left: 15px;
+     opacity: 80%;
+    }
+    
+.icons img:hover {
+        transform: scale(1.1);
  }
 
  .landing-section {
@@ -59,8 +70,8 @@
      flex-direction: row;
      align-items: center;
      justify-content: center;
-     padding-right: 20%;
-     padding-left: 20%;
+     background-color: rgb(245, 245, 245);
+     padding: 60px 0px
  }
 
  #intro {
@@ -80,56 +91,113 @@
      /* text-align:justify; */
     }
 
+#down-arrow {
+    height: 35px;
+}
+
+#skills {
+    margin-bottom: 80px;
+}
+
+#skills h2 {
+    font-size: 22px;
+    color: rgb(80, 80, 80);
+}
+
+
+#skills h3 {
+    font-weight: lighter;
+    color: rgb(70, 70, 70);
+}
+
 .skill-div {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
-    justify-content: left;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .skill-div div {
-    margin: 10px;
+    width: 50px;
+    margin: 0px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .icon{
-    width: 70px;
+    width: 50px;
+    filter: grayscale(50%);
+    margin-bottom: 10px;
+}
+
+.icon:hover {
+    filter: grayscale(0%);
+    transform: scale(1.1);
 }
 
 .skill-div span {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 900;
-    color: black;
+    color: rgb(80, 80, 80);
+}
+
+#technologies-and-tools {
+    margin-bottom: 50px;
+}
+
+#projects {
+    background-color: rgb(245, 245, 245);
+    padding: 25px 0px 60px 0px
+}
+
+#projects h2 {
+    color: rgb(80, 80, 80);
 }
 
 .projects {
     /* Consider change to css grid later*/ 
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:initial;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
 }
 
 .project-div {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    width: fit-content;
-    padding: 10px;
+    justify-content: space-between;
     border-radius: 5%;
+    margin: 15px 30px; 
+}
+
+.project-div a:hover {
+    font-weight: bold;
 }
 
 .project-div a {
     padding: 5px;
-    color: black;
-    font-size: 22px;
-    font-weight: 1000;
+    font-size: 18px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70);
+    text-decoration: none;
 }
 
 .project-image {
-    border: 1px solid black;
-    border-radius: 5%;
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 4%;
     width: 220px;
+    opacity: 70%;
 }
 
+.project-image:hover {
+    opacity: 100%;
+    border: 1px solid rgb(70, 70, 70);
+}
 
 #under-construction {
     height: 120px;
@@ -137,7 +205,7 @@
 }
 
 footer {
-    background-color: var(--quaternary);
+    background-color: rgb(245, 245, 245);
     padding: 18px;
     font-size: 14px;
 }
