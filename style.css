@@ -57,13 +57,13 @@
      color: var(--secondary-title);
  }
 
- .icons img{
+ .contact-icons img{
      width: 30px;
      margin-left: 15px;
      opacity: 80%;
     }
     
-.icons img:hover {
+.contact-icons img:hover {
     transform: scale(1.1);
  }
 
@@ -162,43 +162,40 @@
 .projects {
     /* Consider change to css grid later*/ 
     display: flex;
-    flex-direction: row;
-    justify-content:initial;
+    justify-content:center;
     flex-wrap: wrap;
     width: 80%;
     margin: auto;
 }
 
-.project-div {
+.project-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border-radius: 5%;
     margin: 15px 30px; 
-}
-
-.project-div a:hover {
-    font-weight: bold;
-}
-
-.project-div a {
-    padding: 5px;
-    font-size: 18px;
-    font-weight: lighter;
-    color: var(--secondary-title);
     text-decoration: none;
 }
 
-.project-image {
+.project-container p {
+    font-size: 18px;
+    font-weight: lighter;
+    color: var(--secondary-title);
+}
+
+.project-container img {
     border: 1px solid var(--grey-border);
     border-radius: 4%;
+    height: 160px;
     width: 220px;
     opacity: 70%;
 }
 
-.project-image:hover {
+.project-container:hover p{
+    font-weight: bold;
+}
+
+.project-container:hover img {
     opacity: 100%;
-    border: 1px solid var(--primary-title);
 }
 
 #under-construction {
