@@ -1,23 +1,24 @@
 const projectSection = document.querySelector('.projects');
 
 function addProject(projectName) {
-  const projectDiv = document.createElement('div');
+  const projectContainer = document.createElement('a');
+  const projectTitle = document.createElement('p');
   const projectImage = document.createElement('img');
-  const pageLink = document.createElement('a');
 
-  projectDiv.classList.add('project-div');
-  
+  projectContainer.classList.add('project-container');
+
+  projectContainer.href = `https://guidugaich.github.io/${projectName}`;
+  projectContainer.target = '_blank';
+
+  projectTitle.innerText = projectName;
+
   projectImage.src = `images/${projectName}.png`;
   projectImage.classList.add('project-image');
 
-  pageLink.innerText = projectName;
-  pageLink.href = `https://guidugaich.github.io/${projectName}`;
-  pageLink.target = '_blank';
+  projectContainer.appendChild(projectTitle);
+  projectContainer.appendChild(projectImage);
 
-  projectDiv.appendChild(pageLink);
-  projectDiv.appendChild(projectImage);
-
-  projectSection.appendChild(projectDiv);
+  projectSection.appendChild(projectContainer);
 }
 
 addProject('pixel-art');
