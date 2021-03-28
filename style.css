@@ -260,7 +260,7 @@ footer {
     }
 
     .landing-section {
-        padding-top: 10px;
+        padding: 10px 0 0px 0;
     }
 
     #profile-pic {
@@ -270,6 +270,58 @@ footer {
     #intro {
         padding: 0 20px
     }
+
+    #skills {
+        margin: 0;
+    }
+
+    #skills h2 {
+        font-size: 30px;
+        margin: 10px auto;
+    }
+
+    #skills h3 {
+        font-size: 20px;
+        margin: 10px auto;
+    }
+
+    .skill-div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .icon {
+        width: 90px
+    }
+
+    .skill-div div span {
+        font-size: 16px;
+    }
+
+    #projects {
+        margin: 30px auto;
+        padding: 0;
+        height: fit-content;
+    }
+
+    #projects h2 {
+        font-size: 30px;
+        margin: 25px auto;
+    }
+
+    .project-container p {
+        font-size: 30px;
+        margin: 10px auto;
+    }
+
+    .project-container img {
+        width: 260px;
+        height: 190px;
+    }
+
+
+
+
 
 
 
