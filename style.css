@@ -1,9 +1,11 @@
+
 :root {
     --primary-title: rgb(80, 80, 80);
     --secondary-title: rgb(70, 70, 70);
     --background: rgb(245, 245, 245);
     --grey-border: rgb(200, 200, 200);
 }
+
 
 html {
     font-family: 'Ubuntu', 'Roboto', monospace;
@@ -24,8 +26,8 @@ html {
 }
 
 .main {
-text-align: center;
-margin-top: 91px;
+    text-align: center;
+    margin-top: 91px;
 }
 
 .brand h1 {
@@ -41,14 +43,14 @@ margin-top: 91px;
     color: var(--secondary-title);
 }
 
- 
+
 .contact {
     display: flex;
     /* justify-content: right; */
     align-items: center;
     color: var(--secondary-title);
 }
-    
+
 .contact-icons img{
     width: 30px;
     margin-left: 15px;
@@ -202,4 +204,126 @@ margin-top: 91px;
 footer {
     padding: 18px;
     font-size: 14px;
+}
+
+@media screen and (max-width: 420px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .upperpage {
+        position: initial;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    };
+
+    .brand {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0;
+    }
+
+    .brand h1 {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    .brand h2 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact p {
+        margin: 0px auto 10px auto;
+    }
+
+    .contact a img {
+        margin: 0 10px;
+        width: 45px;
+
+    }
+
+    .main {
+        position: initial;
+        margin-top: 0px;
+    }
+
+    .landing-section {
+        padding: 10px 0 0px 0;
+    }
+
+    #profile-pic {
+        width: 70vw;
+    }
+
+    #intro {
+        padding: 0 20px
+    }
+
+    #skills {
+        margin: 0;
+    }
+
+    #skills h2 {
+        font-size: 30px;
+        margin: 10px auto;
+    }
+
+    #skills h3 {
+        font-size: 20px;
+        margin: 10px auto;
+    }
+
+    .skill-div {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .icon {
+        width: 90px
+    }
+
+    .skill-div div span {
+        font-size: 16px;
+    }
+
+    #projects {
+        margin: 30px auto;
+        padding: 0;
+        height: fit-content;
+    }
+
+    #projects h2 {
+        font-size: 30px;
+        margin: 25px auto;
+    }
+
+    .project-container p {
+        font-size: 30px;
+        margin: 10px auto;
+    }
+
+    .project-container img {
+        width: 260px;
+        height: 190px;
+    }
+
+
+
+
+
+
+
+
 }
